@@ -1,4 +1,4 @@
-package kylec.me.g2048.app;
+package kylec.me.game2048.app;
 
 import android.app.Application;
 

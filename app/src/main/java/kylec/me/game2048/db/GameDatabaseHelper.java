@@ -1,4 +1,4 @@
-package kylec.me.g2048.db;
+package kylec.me.game2048.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

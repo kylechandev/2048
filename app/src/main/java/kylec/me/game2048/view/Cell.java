@@ -1,4 +1,4 @@
-package kylec.me.g2048.view;
+package kylec.me.game2048.view;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import kylec.me.g2048.R;
-import kylec.me.g2048.app.Config;
-import kylec.me.g2048.app.Constant;
+import kylec.me.game2048.R;
+import kylec.me.game2048.app.Config;
+import kylec.me.game2048.app.Constant;
 
 /**
  * 小格子

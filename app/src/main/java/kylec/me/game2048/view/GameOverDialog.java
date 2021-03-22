@@ -1,4 +1,4 @@
-package kylec.me.g2048.view;
+package kylec.me.game2048.view;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,7 +15,7 @@ import com.google.android.material.button.MaterialButton;
 
 import java.util.Objects;
 
-import kylec.me.g2048.R;
+import kylec.me.game2048.R;
 
 /**
  * 游戏结束对话框

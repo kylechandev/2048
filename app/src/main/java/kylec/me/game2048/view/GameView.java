@@ -1,4 +1,4 @@
-package kylec.me.g2048.view;
+package kylec.me.game2048.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,12 +18,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import kylec.me.g2048.R;
-import kylec.me.g2048.app.Config;
-import kylec.me.g2048.app.ConfigManager;
-import kylec.me.g2048.app.Constant;
-import kylec.me.g2048.db.CellEntity;
-import kylec.me.g2048.db.GameDatabaseHelper;
+import kylec.me.game2048.R;
+import kylec.me.game2048.app.Config;
+import kylec.me.game2048.app.ConfigManager;
+import kylec.me.game2048.app.Constant;
+import kylec.me.game2048.db.CellEntity;
+import kylec.me.game2048.db.GameDatabaseHelper;
 
 /**
  * 2048界面

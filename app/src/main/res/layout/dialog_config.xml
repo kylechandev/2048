@@ -64,7 +64,7 @@
             android:minWidth="0dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="@string/btn_difficulty_4"
+            android:text="4×4"
             android:textColor="@color/colorWhite"
             android:textSize="24sp"
             app:cornerRadius="12dp"
@@ -73,7 +73,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/btn_difficulty_5"
             app:strokeColor="@android:color/transparent"
-            app:strokeWidth="2dp" />
+            app:strokeWidth="2dp"
+            tools:ignore="HardcodedText" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_difficulty_5"
@@ -85,7 +86,7 @@
             android:minWidth="0dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="@string/btn_difficulty_5"
+            android:text="5×5"
             android:textColor="@color/colorWhite"
             android:textSize="24sp"
             app:cornerRadius="12dp"
@@ -94,7 +95,8 @@
             app:layout_constraintStart_toEndOf="@+id/btn_difficulty_4"
             app:layout_constraintTop_toBottomOf="@+id/tv_game_difficulty_tip"
             app:strokeColor="@android:color/transparent"
-            app:strokeWidth="2dp" />
+            app:strokeWidth="2dp"
+            tools:ignore="HardcodedText" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_difficulty_6"
@@ -105,7 +107,7 @@
             android:minWidth="0dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="@string/btn_difficulty_6"
+            android:text="6×6"
             android:textColor="@color/colorWhite"
             android:textSize="24sp"
             app:cornerRadius="12dp"
@@ -114,7 +116,8 @@
             app:layout_constraintStart_toEndOf="@+id/btn_difficulty_5"
             app:layout_constraintTop_toTopOf="@+id/btn_difficulty_5"
             app:strokeColor="@android:color/transparent"
-            app:strokeWidth="2dp" />
+            app:strokeWidth="2dp"
+            tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

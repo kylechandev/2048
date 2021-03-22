@@ -1,4 +1,4 @@
-package kylec.me.g2048;
+package kylec.me.game2048;
 
 import android.content.BroadcastReceiver;
 import android.content.ContentValues;
@@ -38,15 +38,15 @@ import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import kylec.me.g2048.app.Config;
-import kylec.me.g2048.app.ConfigManager;
-import kylec.me.g2048.app.Constant;
-import kylec.me.g2048.db.CellEntity;
-import kylec.me.g2048.db.GameDatabaseHelper;
-import kylec.me.g2048.view.CommonDialog;
-import kylec.me.g2048.view.ConfigDialog;
-import kylec.me.g2048.view.GameOverDialog;
-import kylec.me.g2048.view.GameView;
+import kylec.me.game2048.app.Config;
+import kylec.me.game2048.app.ConfigManager;
+import kylec.me.game2048.app.Constant;
+import kylec.me.game2048.db.CellEntity;
+import kylec.me.game2048.db.GameDatabaseHelper;
+import kylec.me.game2048.view.CommonDialog;
+import kylec.me.game2048.view.ConfigDialog;
+import kylec.me.game2048.view.GameOverDialog;
+import kylec.me.game2048.view.GameView;
 
 /**
  * Created by KYLE on 2018/10/2

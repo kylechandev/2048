@@ -5,7 +5,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "kylec.me.g2048"
+        applicationId "kylec.me.game2048"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 2

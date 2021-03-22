@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorTheme">
+    android:background="@color/colorTheme"
+    tools:context=".GameActivity">
 
     <TextView
         android:id="@+id/tv_title_describe"
@@ -48,8 +49,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="2dp"
-            android:text="@string/tv_best_score"
-            android:textColor="@color/colorTextLow" />
+            android:textColor="@color/colorTextLow"
+            tools:text="最高分" />
 
         <TextView
             android:id="@+id/tv_best_score"
@@ -138,7 +139,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.26" />
 
-    <kylec.me.g2048.view.GameView
+    <kylec.me.game2048.view.GameView
         android:id="@+id/game_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

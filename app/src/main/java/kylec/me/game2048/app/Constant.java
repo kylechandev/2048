@@ -1,4 +1,4 @@
-package kylec.me.g2048.app;
+package kylec.me.game2048.app;
 
 /**
  * Created by KYLE on 2019/5/3 - 16:28
