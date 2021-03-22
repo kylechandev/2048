@@ -103,11 +103,11 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if (isNeedSave) {
-                    // 10S保存一次游戏进度
+                    // 5S保存一次游戏进度
                     saveGameProgress();
                 }
             }
-        }, 5 * 1000, 10 * 1000);
+        }, 5 * 1_000L, 5 * 1_000L);
     }
 
     @Override
@@ -129,6 +129,8 @@ public class GameActivity extends AppCompatActivity {
             gameDatabaseHelper.close();
             gameDatabaseHelper = null;
         }
+
+        saveGameProgress();
 
         super.onDestroy();
     }
@@ -535,5 +537,11 @@ public class GameActivity extends AppCompatActivity {
      */
     private void deleteCache(String tableName) {
         db.execSQL("delete from " + tableName);
+    }
+
+    @Override
+    public void onBackPressed() {
+        saveGameProgress();
+        super.onBackPressed();
     }
 }
