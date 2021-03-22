@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "kylec.me.g2048"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // 环境配置
+    buildTypes {
+        // 测试环境配置
+        debug {
+            minifyEnabled false
+            debuggable true
+        }
+
+        // 发布环境配置
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 程序在编译的时候会检查lint,有任何错误提示会停止build
+    lintOptions {
+        // lint 遇到 error 时不继续 构建
+        abortOnError true
+        // build release 版本 时 开启lint 检测
+        checkReleaseBuilds true
+        // 防止发布时因MissingTranslation导致Build Failed
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.3.0'
+
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

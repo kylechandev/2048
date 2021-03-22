@@ -1,3 +1,5 @@
+/keystore
+
 # Built application files
 *.apk
 *.aar
@@ -37,6 +39,7 @@ proguard/
 captures/
 
 # IntelliJ
+/.idea
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml

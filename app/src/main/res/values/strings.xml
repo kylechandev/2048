@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">2048TR</string>
+    <string name="tv_current_score">当前分数</string>
+    <string name="tv_best_score">最高分(4)</string>
+    <string name="tv_best_score_infinite">最高分(∞)</string>
+    <string name="best_score_rank">最高分(%1$d)</string>
+    <string name="game_mode_classics">经典模式\n点击切换无限模式</string>
+    <string name="game_mode_infinite">无限模式\n点击切换经典模式</string>
+    <string name="btn_reset">重置</string>
+    <string name="no_score">0</string>
+    <string name="tv_configuration_option">参数配置</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+    <string name="tv_game_difficulty">游戏难度</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_difficulty_4">4×4</string>
+    <string name="btn_difficulty_5">5×5</string>
+    <string name="btn_difficulty_6">6×6</string>
+    <string name="tv_setting_volume">游戏音效</string>
+    <string name="btn_volume_on">开启</string>
+    <string name="btn_volume_off">关闭</string>
+    <string name="tv_goal_time">2048达成次数</string>
+    <string name="btn_option">配置</string>
+    <string name="tip">提示</string>
+    <string name="share">我刚刚在2048小游戏中获得了%1$s的高分，你能超过我吗？在酷安中搜索`2048TR+`下载与我一起PK吧！</string>
+    <string name="tv_describe_infinite">突破2048限制，追求更高分数！</string>
+    <string name="tv_explain">(仅经典模式下可用)</string>
+    <string name="tv_i_know">我知道了</string>
+    <string name="tip_reset_btn">重置后将丢失当前游戏进度，确认重置？</string>
+    <string name="tv_guide_3">在这里切换游戏模式</string>
+    <string name="tv_guide_2">历史最高分在这里可以看到呦</string>
+    <string name="tv_guide_1">当前得分可以在这里看到呦</string>
+    <string name="tv_guide_4">滑动屏幕来移动小方块</string>
+    <string name="tv_start">开始游戏</string>
+    <string name="tv_go_on">继续</string>
+    <string name="tv_share">分享</string>
+</resources>

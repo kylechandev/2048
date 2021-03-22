@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定义用于去除背景-->
+    <style name="CustomDialog">
+        <item name="android:windowFrame">@null</item><!--去除边框-->
+        <item name="android:windowIsFloating">true</item><!--浮现在activity上-->
+        <item name="android:windowIsTranslucent">false</item><!--窗口不透明-->
+        <item name="android:windowNoTitle">true</item><!--去除标题-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景颜色透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--Dialog以外区域模糊-->
+    </style>
+
+</resources>

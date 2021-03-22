@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="36dp"
+    android:background="@drawable/bg_dialog_common"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+
+        <TextView
+            android:id="@+id/tv_title_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorWhiteDim"
+            android:textSize="20sp"
+            tools:text="标题" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="文本内容" />
+
+    <View
+        android:id="@+id/view_divider_h"
+        android:layout_width="match_parent"
+        android:layout_height="0.32dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/colorWhiteDim" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/btn_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view_divider_v"
+            android:layout_width="0.32dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorWhiteDim" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/btn_confirm"
+            android:textColor="@color/colorWhiteDim"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
