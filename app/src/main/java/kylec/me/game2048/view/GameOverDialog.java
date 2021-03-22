@@ -39,8 +39,8 @@ public class GameOverDialog extends Dialog {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_game_over);
 
-        setCancelable(true);
-        setCanceledOnTouchOutside(true);
+        setCancelable(false);
+        setCanceledOnTouchOutside(false);
 
         Objects.requireNonNull(getWindow()).setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
 
